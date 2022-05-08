@@ -2,6 +2,7 @@
 高仿微信数字键盘、支付键盘（密码键盘）
 
 原作者：https://github.com/zuiwuyuan/WeChatPswKeyboard
+
 这里的代码是拉的这位改的：https://github.com/moz1q1/WeChatPswKeyboard
 
 仅方便自己使用不维护，慎用
@@ -32,7 +33,7 @@ Step 2. Add the dependency
 
 ```
 	dependencies {
-
+            implementation 'com.github.wallfacert:pswkeyboardlib:v1.0.0-alpha'
 	}
 ```
 
