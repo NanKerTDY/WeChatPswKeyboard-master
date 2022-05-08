@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    tools:context="com.lnyp.pswkeyboard.NormalKeyBoardActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textAmount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <com.moziqi.pwd.widget.PasswordLayoutView
+            android:id="@+id/psw_ly"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </com.moziqi.pwd.widget.PasswordLayoutView>
+    </LinearLayout>
+
+
+    <com.moziqi.pwd.widget.VirtualKeyboardView
+        android:id="@+id/virtualKeyboardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:virtualkeyboard_random="true" />
+
+
+</RelativeLayout>
