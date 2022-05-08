@@ -1,6 +1,11 @@
 # WeChatPswKeyboard
 高仿微信数字键盘、支付键盘（密码键盘）
 
+原作者：https://github.com/zuiwuyuan/WeChatPswKeyboard
+这里的代码是拉的这位改的：https://github.com/moz1q1/WeChatPswKeyboard
+
+仅方便自己使用不维护，慎用
+
 效果图：
 
 ![image](https://github.com/zuiwuyuan/WeChatPswKeyboard/blob/master/imgs/img.gif)
@@ -27,8 +32,7 @@ Step 2. Add the dependency
 
 ```
 	dependencies {
-	        //implementation 'com.github.moz1q1:WeChatPswKeyboard:1.0.+'
-		implementation 'com.github.mosenxx:WeChatPswKeyboard:v1.0.10'
+
 	}
 ```
 
@@ -84,4 +88,3 @@ Share this release:
 
 详细介绍，请查看：http://blog.csdn.net/zuiwuyuan/article/details/52198240
 
-如果对你有帮助，请star下吧，谢谢。
