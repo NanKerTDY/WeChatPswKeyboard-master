@@ -1,6 +1,8 @@
 # WeChatPswKeyboard
 高仿微信数字键盘、支付键盘（密码键盘）
 
+[![](https://jitpack.io/v/wallfacert/pswkeyboardlib.svg)](https://jitpack.io/#wallfacert/pswkeyboardlib)
+
 原作者：https://github.com/zuiwuyuan/WeChatPswKeyboard
 
 这里的代码是拉的这位改的：https://github.com/moz1q1/WeChatPswKeyboard
@@ -11,7 +13,6 @@
 
 ![image](https://github.com/zuiwuyuan/WeChatPswKeyboard/blob/master/imgs/img.gif)
 
-在原作者上增加密码界面禁止截屏和辅助功能的使用
 
 To get a Git project into your build:
 
